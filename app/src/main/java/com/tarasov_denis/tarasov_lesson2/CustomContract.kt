@@ -8,8 +8,6 @@ import androidx.activity.result.contract.ActivityResultContract
 const val DATA = "data"
 const val INPUT_DATA = "input_data"
 
-// https://proandroiddev.com/activity-result-api-the-clean-way-697bb120c98d
-
 class CustomContract : ActivityResultContract<String, String?>() {
 
     override fun createIntent(context: Context, input: String): Intent {
@@ -20,12 +18,9 @@ class CustomContract : ActivityResultContract<String, String?>() {
 
     override fun parseResult(resultCode: Int, intent: Intent?): String? {
         return when (resultCode) {
-            //Transforming our result to required format before returning it
             Activity.RESULT_OK -> intent?.getStringExtra(DATA)
             else -> null
         }
     }
-
-
-
+    
 }
