@@ -22,5 +22,5 @@ class CustomContract : ActivityResultContract<String, String?>() {
             else -> null
         }
     }
-    
+
 }
