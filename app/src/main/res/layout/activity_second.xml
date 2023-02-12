@@ -7,10 +7,10 @@
     tools:context=".SecondActivity">
 
     <Button
-        android:id="@+id/button3"
+        android:id="@+id/backToFirstActivity"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Вернуться в первую активность"
+        android:text="@string/backToFirstActivity"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -22,7 +22,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textSize="25sp"
-        android:hint="Hello world!"
+        android:hint="@string/editView"
+        android:freezesText="true"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
