@@ -2,11 +2,11 @@
 
     <string name="app_name">Tarasov_Lesson_3-1</string>
 
-    <string name="goTo">Activity with linear-layout</string>s
+    <string name="goTo">Go to activity with linear-layout</string>s
     <string name="changeLanguage">Change to russian</string>
     <string name="hello">Hello world!</string>
     <string name="editView">Hello world!</string>
-    <string name="backToFirstActivity">Activity with greed-layout</string>
+    <string name="backToFirstActivity">Go to activity with greed-layout</string>
 
 </resources>
 

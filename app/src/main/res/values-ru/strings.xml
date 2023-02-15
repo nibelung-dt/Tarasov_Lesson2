@@ -3,10 +3,10 @@
 
     <string name="app_name">Тарасов_Занятие_3-1</string>
 
-    <string name="goTo">Активность с linear-layout</string>s
+    <string name="goTo">Перейти в активность с linear-layout</string>s
     <string name="changeLanguage">Переключить на английский</string>
     <string name="hello">Привет, мир!</string>
     <string name="editView">Привет, мир!</string>
-    <string name="backToFirstActivity">Активность с greed-layout</string>
+    <string name="backToFirstActivity">Перейти в активность с greed-layout</string>
 
 </resources>

@@ -12,7 +12,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_weight="1"
-        android:layout_marginTop="50dp"
+        android:layout_marginTop="70dp"
         android:layout_marginLeft="50dp"
         android:layout_gravity="left"
         app:srcCompat="@mipmap/austria" />
@@ -22,7 +22,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_weight="1"
-        android:layout_marginTop="50dp"
+        android:layout_marginTop="70dp"
         android:layout_gravity="center_horizontal"
         app:srcCompat="@mipmap/poland" />
 
@@ -31,7 +31,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_weight="1"
-        android:layout_marginTop="50dp"
+        android:layout_marginTop="70dp"
         android:layout_marginRight="50dp"
         android:layout_gravity="right"
         app:srcCompat="@mipmap/italy" />

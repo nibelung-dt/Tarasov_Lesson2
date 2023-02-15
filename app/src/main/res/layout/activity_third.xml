@@ -45,7 +45,7 @@
         android:layout_height="wrap_content"
         android:layout_row="0"
         android:layout_columnWeight="0.3"
-
+        android:padding="15dp"
         app:srcCompat="@mipmap/colombia" />
 
     <ImageView
