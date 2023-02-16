@@ -1,12 +1,20 @@
 <resources>
 
-    <string name="app_name">Tarasov_Lesson2</string>
+    <string name="app_name">Aston intensive</string>
 
-    <string name="goTo">Go to second activity</string>s
-    <string name="changeLanguage">Change to russian</string>
-    <string name="hello">Hello world!</string>
-    <string name="editView">Hello world!</string>
-    <string name="backToFirstActivity">Back to the first activity</string>
+
+    <string name="meeting">Приветствуем вас в Aston</string>
+    <string name="header"><b>ИТ-решения для\nразвития бизнеса</b>\nРазработка программного\nобеспечения</string>
+    <string name="aboutUs"><b>О нас:</b>\nAston - компания по разработке ПО
+с полным циклом услуг. Уже 15 лет
+мы помогаем заказчикам по всему
+миру трансформировать бизнес,
+создавая эффективные мобильные и
+десктопные решения.</string>
+
+    <string name="offices"><b>Offices</b></string>
 
 </resources>
+
+    <!--<b>Наибольший вклад внесли:</b>-->
 

@@ -1,12 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="app_name">Тарасов_Занятие2</string>
+    <string name="app_name">Aston intensive</string>
 
-    <string name="goTo">Перейти во вторую активность</string>s
-    <string name="changeLanguage">Переключить на английский</string>
-    <string name="hello">Привет, мир!</string>
-    <string name="editView">Привет, мир!</string>
-    <string name="backToFirstActivity">Вернуться в первую активность</string>
+
+    <string name="meeting">Приветствуем вас в Aston</string>
+    <string name="header"><b>ИТ-решения для\nразвития бизнеса</b>\nРазработка программного\nобеспечения</string>
+    <string name="aboutUs"><b>О нас:</b>\nAston - компания по разработке ПО
+с полным циклом услуг. Уже 15 лет
+мы помогаем заказчикам по всему
+миру трансформировать бизнес,
+создавая эффективные мобильные и
+десктопные решения.</string>
+
+    <string name="offices"><b>Офисы</b></string>
 
 </resources>
