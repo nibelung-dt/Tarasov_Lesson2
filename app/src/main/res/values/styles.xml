@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <style name="theme_overlays3" parent="">
+        <item name="colorPrimary">#B1B5B4</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+
+</resources>
+
+
+<!--<style name="theme_overlays3"></style>-->

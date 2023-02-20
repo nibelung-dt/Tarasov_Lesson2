@@ -1,35 +1,29 @@
 package com.tarasov_denis.tarasov_lesson2
 
-import android.content.Intent
-import android.net.Uri
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.widget.Button
-import android.widget.EditText
-import com.tarasov_denis.tarasov_lesson2.SecondActivity.text.editText1
-// import androidx.activity.result.ActivityResultLauncher
-// import androidx.activity.result.contract.ActivityResultContracts
+import com.tarasov_denis.tarasov_lesson2.databinding.ActivityMainBinding
+import com.tarasov_denis.tarasov_lesson2.databinding.ActivitySecondBinding
 
 class SecondActivity : AppCompatActivity() {
-
-    object text {
-        var editText1 = ""
-    }
-
+   // lateinit var binding: ActivitySecondBinding
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_second)
 
-        val contract = CustomContract()
+       // binding = ActivitySecondBinding.inflate(layoutInflater)
+       // setContentView(binding.root)
 
-        val backToFirstActivity = findViewById<Button>(R.id.backToFirstActivity)
-        val editView = findViewById<EditText>(R.id.editView)
+       val customView = findViewById<CustomView>(R.id.CustomView)
+       customView.setTitle("(test) Android trainee")
+       customView.setSubTitle("(test) Cтажировка по направлению Android (test)")
 
-
-        backToFirstActivity.setOnClickListener {
-            editText1 = editView.getText().toString()
-            startActivity(contract.createIntent(this, editText1))
+/*
+        binding.run {
+            customView.setTitle("text") // set title
+            customView.setSubTitle("text2") // set subTitle
         }
-
+        */
     }
+
 }
