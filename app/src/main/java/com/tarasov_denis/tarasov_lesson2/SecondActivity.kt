@@ -11,12 +11,12 @@ class SecondActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_second)
 
-      //  binding = ActivitySecondBinding.inflate(layoutInflater)
+       // binding = ActivitySecondBinding.inflate(layoutInflater)
        // setContentView(binding.root)
 
-        val customView = findViewById<CustomView>(R.id.CustomView)
-       customView.setTitle("(test) Android trainee") // set title
-       customView.setSubTitle("(test) Cтажировка по направлению Android (test)") // set subTitle
+       val customView = findViewById<CustomView>(R.id.CustomView)
+       customView.setTitle("(test) Android trainee")
+       customView.setSubTitle("(test) Cтажировка по направлению Android (test)")
 
 /*
         binding.run {

@@ -9,8 +9,9 @@
 
     <ImageView
         android:id="@+id/imageView4"
-        android:layout_width="91dp"
-        android:layout_height="70dp"
+        android:layout_width="92dp"
+        android:layout_height="64dp"
+        android:layout_marginTop="4dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/aston_logo" />

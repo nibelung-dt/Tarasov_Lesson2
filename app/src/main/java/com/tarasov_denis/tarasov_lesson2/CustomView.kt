@@ -13,8 +13,8 @@ class CustomView (
     attrs: AttributeSet?
 ) : ConstraintLayout(context, attrs) {
 
-  //  private var binding: CustomViewBinding =
-   //     CustomViewBinding.inflate(LayoutInflater.from(context), this) //, false)
+   private var binding: CustomViewBinding =
+       CustomViewBinding.inflate(LayoutInflater.from(context), this) //, false)
 
 /*
     init {
@@ -33,7 +33,7 @@ class CustomView (
     }
  */
 
-    fun setTitle(text: String){
+    fun setTitle(text: String) {
        // binding.title.text = text
         val title = findViewById<TextView>(R.id.title)
         title.text = text
@@ -41,7 +41,7 @@ class CustomView (
 
     fun setSubTitle(text: String) {
        // binding.subtitle.text = text
-        val subtitle = findViewById<TextView>(R.id.subtitle)
+        val subtitle = findViewById<TextView>(R.id.subtitle) // textSubtitle
        subtitle.text = text
     }
 
