@@ -14,5 +14,7 @@
 десктопные решения.</string>
 
     <string name="offices"><b>Офисы</b></string>
+    <string name="title"><b>Android trainee</b></string>
+    <string name="subtitle">Стажировка по направлению Android</string>
 
 </resources>

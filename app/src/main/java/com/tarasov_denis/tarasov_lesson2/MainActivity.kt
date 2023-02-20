@@ -1,6 +1,7 @@
 package com.tarasov_denis.tarasov_lesson2
 
 
+import android.content.Intent
 import android.graphics.Typeface
 import android.opengl.Visibility
 import androidx.appcompat.app.AppCompatActivity
@@ -31,6 +32,11 @@ class MainActivity : AppCompatActivity() {
         val button5 = findViewById<Button>(R.id.button5)
 
         contacts.setOnClickListener {
+            val intent = Intent(this, SecondActivity::class.java)
+            startActivity(intent)
+        }
+        /*
+        contacts.setOnClickListener {
             contacts.visibility = View.INVISIBLE
             vacancy.visibility = View.INVISIBLE
             gallery.visibility = View.INVISIBLE
@@ -42,7 +48,7 @@ class MainActivity : AppCompatActivity() {
             button5.visibility = View.INVISIBLE
             progressBar.visibility = View.VISIBLE
         }
-
+*/
         vacancy.setOnClickListener {
             contacts.visibility = View.INVISIBLE
             vacancy.visibility = View.INVISIBLE
