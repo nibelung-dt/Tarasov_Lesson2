@@ -6,6 +6,18 @@
     android:layout_height="match_parent"
     tools:context=".SecondActivity">
 
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="0dp"
+        android:layout_height="?android:attr/actionBarSize"
+        android:background="#2987E4"
+        tools:title="Aston intensive 2"
+        app:titleTextColor="@color/white"
+        app:navigationIconTint="@color/white"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
     <!--    <include-->
 <!--        layout="@layout/custom_view"-->
 <!--        android:layout_width="wrap_content"-->

@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<merge
+<androidx.constraintlayout.widget.ConstraintLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/custom_view"
     tools:parentTag="androidx.constraintlayout.widget.ConstraintLayout">
 
     <ImageView
@@ -42,4 +43,4 @@
         app:layout_constraintStart_toEndOf="@+id/imageView4"
         app:layout_constraintTop_toTopOf="parent" />
 
-</merge>
+</androidx.constraintlayout.widget.ConstraintLayout>
