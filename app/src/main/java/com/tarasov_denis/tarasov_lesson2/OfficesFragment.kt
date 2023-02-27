@@ -18,11 +18,6 @@ import com.tarasov_denis.tarasov_lesson2.databinding.FragmentOfficesBinding
 
 class OfficesFragment : Fragment() {
 
-/*
-    override fun onCreate(savedInstanceState: Bundle?) {
-        super.onCreate(savedInstanceState)
-    }
- */
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?
     ): View {

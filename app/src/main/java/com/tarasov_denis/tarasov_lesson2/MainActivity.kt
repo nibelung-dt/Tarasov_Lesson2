@@ -6,12 +6,6 @@ import android.view.View
 import androidx.fragment.app.Fragment
 import com.tarasov_denis.tarasov_lesson2.databinding.ActivityMainBinding
 
-//import com.tarasov_denis.tarasov_lesson2.navigator
-//import androidx.appcompat.widget.Toolbar
-//import androidx.fragment.app.FragmentManager
-//import com.google.android.material.bottomnavigation.BottomNavigationView
-
-
 
 /*
 навигация
@@ -33,10 +27,8 @@ https://github.com/codexpedia/android_basic_single_activity_fragments/blob/main/
 4) экран со списком офисов
 5) экран с информацией по отдельным офисам
 
-
 FragmentManager.popBackStack()
 setPrimaryNavigationFragment()
-
  */
 
 
@@ -142,15 +134,10 @@ ok 9) научиться получать текст из EditView окна ав
 ---27.02---
 ок 20) при нажатии на вьюшку с офисом переходим на экран детальной информации об офисе (DetailOfficeFragment)
 ок 21) создать словарь с городами-адресами
+ок 22) на экране с вакансиями реализовать возможность фильтра элементов по ключевому слову технологии (Android, Java и т.д.)
 
-
-22) на тулбаре DetailOfficeFragment должна появиться кнопка "назад" для возвращения на экран "офисы"
-23) на экране с вакансиями реализовать возможность фильтра элементов по ключевому слову технологии (Android, Java и т.д.)
-
-
-22) сделать splashscreen
-
-23) кнопка "Войти" должна быть по умолчанию полупрозрачной и иметь цвет #2987E4, а у меня она серая
-24) исправить цвета у navigation bar
-
+23) на тулбаре DetailOfficeFragment должна появиться кнопка "назад" для возвращения на экран "офисы"
+24) сделать splashscreen
+25) кнопка "Войти" должна быть по умолчанию полупрозрачной и иметь цвет #2987E4, а у меня она серая
+26) исправить цвета у navigation bar
  */

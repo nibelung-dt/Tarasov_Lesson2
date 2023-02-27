@@ -5,6 +5,8 @@ import android.os.Bundle
 import com.tarasov_denis.tarasov_lesson2.databinding.ActivityMainBinding
 import com.tarasov_denis.tarasov_lesson2.databinding.ActivitySecondBinding
 
+
+// активность для тестов
 class SecondActivity : AppCompatActivity() {
    // lateinit var binding: ActivitySecondBinding
     override fun onCreate(savedInstanceState: Bundle?) {

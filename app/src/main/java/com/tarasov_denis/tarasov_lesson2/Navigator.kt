@@ -18,21 +18,4 @@ interface Navigator {
 
     fun goToVacancies()
 
-/*
-    // fun closeApp()
-    class Base : Navigator {
-        override fun goBack() {
-
-        }
-
-        override fun goToMainFragment() {
-            val fragment_main = MainFragment()
-            supportFragmentManager.beginTransaction()
-                .replace(R.id.fragment_container_view, fragment_main)
-                .commit()
-        }
-    }
-
- */
-
 }

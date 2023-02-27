@@ -49,8 +49,6 @@ https://www.fandroid.info/12-navigation-architecture-component/
 
 class MainFragment : Fragment() {
 
-// private lateinit var binding: FragmentMainBinding
-
 
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?
     ): View {
@@ -62,7 +60,6 @@ class MainFragment : Fragment() {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-
 
     }
 }
